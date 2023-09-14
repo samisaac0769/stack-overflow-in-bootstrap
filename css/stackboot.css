@@ -1,0 +1,315 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: -apple-system, -apple-system,
+        BlinkMacSystemFont, 'Segoe UI', Roboto,
+        Oxygen, Ubuntu, Cantarell, 'Open Sans',
+        'Helvetica Neue', sans-serif;
+    font-size: 13px;
+}
+
+nav {
+    border-top: 3px solid hsl(27, 90%, 55%);
+    border-bottom: 1px solid hsl(210, 8%, 85%);
+}
+
+.bar-link {
+    color: #525960;
+    border-radius: 21px;
+    padding: 6px 12px;
+    margin: 5px;
+    cursor: pointer;
+    font-weight: 400;
+}
+
+.bar-link:hover {
+    background-color: #d6d9dc;
+}
+
+.search {
+    border: none;
+    outline: none;
+    padding: 5px 40px 5px 7.2px;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.searcharea {
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+
+.navcontain {
+    margin: 0 40px 0 35px;
+}
+
+.login {
+    padding: 8px 10.4px;
+    background-color: #E1ECF4;
+    color: #39739d !important;
+    border: none;
+}
+
+.login:hover {
+    background-color: hsl(206, 93%, 83.5%);
+
+}
+
+.signup {
+    padding: 8px 10.4px;
+    border: none;
+    background-color: #0A95FF;
+    color: white !important;
+}
+
+.signup:hover {
+    background-color: hsl(209, 100%, 37.5%);
+}
+
+.navbtn {
+    margin-left: 20px;
+}
+
+.main-body {
+    padding: 56px 0 0 0;
+}
+
+.side-bar div a {
+    text-decoration: none;
+    color: #525960 !important;
+}
+
+.side-bar div {
+    color: #525960 !important;
+    padding: -2px;
+}
+
+.side-bar {
+    border-right: 1px solid #c7c7c7;
+    ;
+}
+
+.public a {
+    font-size: 11px !important;
+}
+
+.tag,
+.user,
+.company {
+    padding: 4px 4px 4px 30px;
+    height: 34px;
+}
+
+.account a,
+.dob-job p,
+.account {
+    color: #6A737C;
+}
+
+.profileimg {
+    width: 128px;
+    height: 128px;
+}
+
+.p-btn {
+
+    padding: 5px 4px 3px 5px;
+    border: 1px solid #babfc4;
+    ;
+    outline: none;
+    border-radius: 6px;
+    color: #3b4045;
+    ;
+}
+
+.user-navigation a {
+    padding: 6px 12px;
+    border-radius: 1000px;
+    text-decoration: none;
+    color: white;
+    background-color: hsl(27, 90%, 55%);
+}
+
+a.activeity {
+    color: #525960 !important;
+    background-color: rgb(224, 224, 224) !important;
+}
+
+.user-navigation a:hover {
+    background-color: hsl(27, 90%, 45%);
+    color: white;
+}
+
+a.activeity:hover {
+    background-color: hsl(210, 8%, 90%) !important;
+}
+
+.detail-card1 {
+    border: 1px solid;
+    margin-bottom: 25px;
+    border-radius: 6px;
+    color: hsl(210, 8%, 45%);
+    border-color: hsl(210, 8%, 85%);
+    font-size: 13px;
+    background-color: #ffffff;
+    padding: 12px;
+}
+
+.c-d1 p {
+    font-weight: 400;
+    font-size: 17px;
+    color: black;
+}
+
+h3 {
+    font-weight: 400;
+}
+
+.card3-list a {
+    text-decoration: none;
+}
+
+.about p,
+.about ul li a,
+.about p a {
+    font-size: 15px;
+}
+
+.about p,
+.about ul li {
+    color: #3B4045;
+}
+
+.dot {
+    height: 6.5px;
+    width: 6.5px;
+    margin-top: 5px;
+    border-radius: 5px;
+}
+
+.icon-title {
+    font-size: 11px;
+    border-radius: 6px;
+    color: #525960;
+    background-color: #f1f2f3;
+}
+
+.badg-date {
+    color: hsl(210, 8%, 25%);
+    font-size: 11px;
+}
+
+.tag-dot {
+    background-color: #FFD700;
+    margin: 10px 6px 6px 7px;
+}
+
+.tag-titles {
+    padding: 4px;
+    border-radius: 3px;
+    background-color: hsl(205, 46%, 92%);
+    color: hsl(205, 47%, 42%);
+}
+
+.score {
+    margin-top: 4px !important;
+    font-size: 12px !important;
+    color: #6A737C;
+    margin-top: 3px;
+}
+
+.top-ans-h-r div a {
+    text-decoration: none;
+}
+
+.ans,
+.newans {
+    border: 1px solid hsl(210, 8%, 75%);
+    margin-left: 10px;
+    border-radius: 6px;
+    padding: 3px;
+}
+
+.ans a,
+.newans a {
+    text-decoration: none;
+    color: #232629 !important;
+    padding: 5px !important;
+    font-size: 11px;
+    color: #3B4045;
+    border-right: hsl(210, 8%, 75%);
+    cursor: pointer;
+}
+
+.ans-count {
+    background-color: hsl(140, 40%, 55%);
+    padding: 5px;
+    color: white;
+    margin: 0 12px 0 5px;
+    max-height: 30px;
+}
+
+.meta-count {
+    background-color: white;
+    padding: 5px;
+    color: black;
+    margin: 0 12px 0 5px;
+    max-height: 30px;
+    color: hsl(210, 8%, 25%);
+    border: 1px solid hsl(210, 8%, 80%);
+}
+
+a {
+    text-decoration: none;
+}
+
+.beta {
+    width: 23px;
+    height: 25px;
+    margin-top: 2px;
+}
+
+.sig-ans-card div a,
+.sig-meta-card div a {
+    color: #0074CC !important;
+    font-size: 15px;
+}
+
+.anssub,
+.netsub {
+    color: #0074CC !important;
+    font-size: 15px;
+}
+
+.meta {
+    width: 18px;
+    height: 18px;
+    margin-top: 4px;
+}
+
+footer {
+    background-color: #232629;
+    color: #9199A1 !important;
+    position:sticky;
+}
+
+ul {
+    list-style-type: none;
+}
+
+footer ul li a,
+.td-underline a {
+    color: #9199A1;
+}
+
+h5 a {
+    color: hsl(210, 8%, 75%);
+}
+
+@media screen and (min-width: 300px) {
+    footer {
+        min-width:auto;
+    }
+}
+
